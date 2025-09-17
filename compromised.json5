@@ -1,0 +1,40 @@
+[
+  // Wave 1: «debug/chalk» — 8-9 Sep 2025
+  // Sources: Qualys
+  { "name": "chalk", "versions": ["5.6.1"], "source": "qualys" },
+  { "name": "debug", "versions": ["4.4.2"], "source": "qualys" },
+  { "name": "ansi-styles", "versions": ["6.2.2"], "source": "qualys" },
+  { "name": "supports-color", "versions": ["10.2.1"], "source": "qualys" },
+  { "name": "strip-ansi", "versions": ["7.1.1"], "source": "qualys" },
+  { "name": "ansi-regex", "versions": ["6.2.1"], "source": "qualys" },
+  { "name": "wrap-ansi", "versions": ["9.0.1"], "source": "qualys" },
+  { "name": "slice-ansi", "versions": ["7.1.1"], "source": "qualys" },
+  { "name": "color", "versions": ["5.0.1"], "source": "qualys" },
+  { "name": "color-string", "versions": ["2.1.1"], "source": "qualys" },
+  { "name": "color-convert", "versions": ["3.1.1"], "source": "qualys" },
+  { "name": "color-name", "versions": ["2.0.1"], "source": "qualys" },
+  { "name": "is-arrayish", "versions": ["0.3.3"], "source": "qualys" },
+  { "name": "simple-swizzle", "versions": ["0.2.3"], "source": "qualys" },
+  { "name": "supports-hyperlinks", "versions": ["4.1.1"], "source": "qualys" },
+  { "name": "has-ansi", "versions": ["6.0.1"], "source": "qualys" },
+  { "name": "chalk-template", "versions": ["1.1.1"], "source": "qualys" },
+  { "name": "backslash", "versions": ["0.2.1"], "source": "qualys" },
+
+  // Wave 2: Shai‑Hulud — 15-17 Sep 2025+
+  // Sources: Wiz (Appendix), JFrog
+  { "name": "@ctrl/deluge", "versions": ["7.2.2", "7.2.1"], "source": "wiz" },
+  { "name": "@ctrl/golang-template", "versions": ["1.4.3", "1.4.2"], "source": "wiz" },
+  { "name": "@ctrl/magnet-link", "versions": ["4.0.4", "4.0.3"], "source": "wiz" },
+  { "name": "@ctrl/ngx-codemirror", "versions": ["7.0.2", "7.0.1"], "source": "wiz" },
+  { "name": "@ctrl/ngx-csv", "versions": ["6.0.2", "6.0.1"], "source": "wiz" },
+  { "name": "@ctrl/ngx-emoji-mart", "versions": ["9.2.2", "9.2.1"], "source": "wiz" },
+  { "name": "@ctrl/ngx-rightclick", "versions": ["4.0.2", "4.0.1"], "source": "wiz" },
+  { "name": "@ctrl/qbittorrent", "versions": ["9.7.2", "9.7.1"], "source": "wiz" },
+  { "name": "@ctrl/react-adsense", "versions": ["2.0.2", "2.0.1"], "source": "wiz" },
+  { "name": "@ctrl/shared-torrent", "versions": ["6.3.2", "6.3.1"], "source": "wiz" },
+  { "name": "@ctrl/tinycolor", "versions": ["4.1.2", "4.1.1"], "source": "wiz" },
+  { "name": "@ctrl/torrent-file", "versions": ["4.1.2", "4.1.1"], "source": "wiz" },
+  { "name": "@ctrl/transmission", "versions": ["7.3.1"], "source": "jfrog" },
+  { "name": "@ctrl/ts-base32", "versions": ["4.0.2", "4.0.1"], "source": "jfrog" },
+  { "name": "encounter-playground", "versions": ["0.0.5"], "source": "jfrog" }
+]

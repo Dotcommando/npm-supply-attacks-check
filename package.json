@@ -1,0 +1,44 @@
+{
+  "name": "npm-supply-attacks-check",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "author": "Mikhail Filchushkin <npm.supply.attacks.check@gmail.com>",
+  "description": "CLI to detect compromised npm packages from recent supply chain attacks",
+  "keywords": [
+    "security",
+    "npm",
+    "supply-chain",
+    "malware",
+    "audit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dotcommando/npm-supply-attacks-check.git"
+  },
+  "homepage": "https://github.com/Dotcommando/npm-supply-attacks-check",
+  "bugs": {
+    "url": "https://github.com/Dotcommando/npm-supply-attacks-check/issues"
+  },
+  "bin": {
+    "npm-supply-attacks-check": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/index.js",
+    "check": "tsx src/index.ts",
+    "typecheck": "tsc -p . --noEmit"
+  },
+  "dependencies": {
+    "@yarnpkg/lockfile": "1.1.0",
+    "json5": "2.2.3",
+    "yaml": "2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.5.1",
+    "@types/yarnpkg__lockfile": "1.1.9",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  }
+}
