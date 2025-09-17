@@ -6,6 +6,14 @@ Minimal CLI to detect **specific compromised versions** from two incidents:
 
 ## Quick start
 
+### Usage in your project
+
+```bash
+npm i -D npm-supply-attacks-check
+
+npx npm-supply-attacks-check --lock --format text
+```
+
 ### Local usage
 
 ```bash

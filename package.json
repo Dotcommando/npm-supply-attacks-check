@@ -22,10 +22,11 @@
     "url": "https://github.com/Dotcommando/npm-supply-attacks-check/issues"
   },
   "bin": {
-    "npm-supply-attacks-check": "dist/index.js"
+    "npm-supply-attacks-check": "bin/cli.mjs"
   },
   "scripts": {
     "build": "tsc -p .",
+    "prepublishOnly": "rm -rf dist && npm run build",
     "start": "node dist/index.js",
     "check": "tsx src/index.ts",
     "typecheck": "tsc -p . --noEmit"
@@ -40,5 +41,14 @@
     "@types/yarnpkg__lockfile": "1.1.9",
     "tsx": "4.20.5",
     "typescript": "5.9.2"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "compromised.json5",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
   }
 }
